@@ -56,7 +56,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **User Registration**
 
 1. Endpoint: `/signup/`
-2. Method: POST
+2. Method: `POST`
 3. Payload:
 
    ```shflask run
@@ -68,7 +68,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **User Login**
 
 1. Endpoint: `/login/`
-2. Method: POST
+2. Method: `POST`
 3. Payload:
 
    ```shflask run
@@ -85,7 +85,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **Retrieve User Profile**
 
 1. Endpoint: `/profile/<int:user_id>/`
-2. Method: GET
+2. Method: `GET`
 3. Headers:
 
    ```shflask run
@@ -93,7 +93,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **Update User Profile**
 
 1. Endpoint:`'/profile/<int:user_id>/`
-2. Method: PUT
+2. Method: `PUT`
 3. Headers:
 
    ```shflask run
@@ -108,7 +108,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **Delete User Profile**
 
 1. Endpoint: `/profile/<int:user_id>/`
-2. Method: DELETE
+2. Method: `DELETE`
 3. Headers:
 
    ```shflask run
@@ -116,7 +116,7 @@ This project is a Flask API that supports user authentication using JWT (JSON We
 **Logout**
 
 1. Endpoint: `/logout/`
-2. Method: POST
+2. Method: `POST`
 3. Headers:
 
    ```shflask run
